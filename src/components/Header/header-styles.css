@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.header_sections_item{
+    text-decoration: none;  
+}
+.header_sections_title{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.pointer{
+    text-decoration: overline;
+    transition: ease-in 01s;
+    color: aqua;
+}
+
+ 

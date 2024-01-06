@@ -1,0 +1,30 @@
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: left;
+}
+h2{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    color: aqua;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    padding: 16px;   
+    flex-wrap: wrap;
+    text-align: left;
+}
+.about_name{
+    width: 500px;    
+}
+
+.about_apresentation{
+    margin-top: 16px;
+    max-width: 400px;
+}
+ .avatar{
+    width: 400px;
+    height: 400px;
+ }

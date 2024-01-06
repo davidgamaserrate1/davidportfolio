@@ -6,10 +6,33 @@ h3{
 }
 .skills_list{
     display: flex;
+    gap: 32px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;   
     min-width: 100px;
     margin: auto auto;
+}
+
+.download_group{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    border: 1px solid #fff ;
+    border-radius: 10px;
+}
+ .download_button{
+    margin: 32px auto;
+ }
+
+.download_group{
+    text-decoration: none;   
+     
+}
+
+.download_button{
+    display: flex;
+    align-items: center;  
+     
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import './skills-styles.css'
+import cvPdf from '../../assets/cv David Serrate.pdf'
 
 import react from '../../assets/react.png'
 import html from '../../assets/html.png'
@@ -26,8 +27,6 @@ const skills = [
     { name:'SQL Oracle', image: sql}, 
     { name:'Chakra', image: chakra}, 
     { name:'Material UI', image: mui}, 
-    
-    
 ]
 
 export function Skills(){
@@ -37,6 +36,12 @@ export function Skills(){
             <div className="skills_list">
                 {skills.map((skill)=> <SkillCard name={skill.name} image={skill.image}/> )}
             </div>
+            <button  className="download_button">
+                <a href={cvPdf} download className="download_group" >
+                    Download CV 
+                    <span class="material-symbols-outlined">download</span> 
+                </a>
+            </button>
         </section>
     )
 }

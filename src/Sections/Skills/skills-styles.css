@@ -1,0 +1,15 @@
+h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 16px 0;
+}
+.skills_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    min-width: 100px;
+    margin: auto auto;
+}

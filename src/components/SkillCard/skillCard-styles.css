@@ -1,0 +1,11 @@
+.skill_card{
+    text-align: center; 
+ 
+}
+.skill_card__image{
+    height: 100px;
+}
+
+.skill_card__name{
+    font-size: 1.5rem;
+}

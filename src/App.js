@@ -3,6 +3,7 @@ import { Contact } from "./Sections/Contact/Contact";
 import { Projects } from "./Sections/Projects/Projects";
 import { Skills } from "./Sections/Skills/Skills";
 import { Divider } from "./components/Divider";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 
 export function App() {
@@ -16,6 +17,8 @@ export function App() {
       <Projects/>
       <Divider/>
       <Contact/>
+      <Divider/>
+      <Footer/>
     </>
   );
 }

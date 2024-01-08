@@ -17,7 +17,7 @@ const projects = [
         name: 'Ecommerce aparelhos eletronicos',
         tools : 'TypeScript, React, React-query, Styled-components,Reduxjs/toolkit',
         description : 'Lista de produtos de uma loja. Onde é possivel selecionar e ajustar a quantidade de cada produto selecionado.', 
-        url : 'https://clients-manager.vercel.app/',
+        url : 'https://mks-frontend-challenge-pi.vercel.app/',
         image : ecommerce
     },
     {
@@ -31,7 +31,7 @@ const projects = [
         name: 'Relatorio de vendas',
         tools : 'React, html2canvas, Google charts',
         description : 'Painel com gráficos de vendas de alguns produtos, com possibilidade de exportação do relatorio em PDF', 
-        url : 'https://clients-manager.vercel.app/',
+        url : 'https://dashboard-relatorio-vendas.vercel.app/',
         image : sales
     },
     {

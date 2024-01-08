@@ -8,6 +8,9 @@ import tarefas from '../../assets/projects/tarefas.png'
 import links from '../../assets/projects/links.png'
 import orders from '../../assets/projects/orders.png'
 import ecommerce from '../../assets/projects/ecommerce.png'
+import sales from '../../assets/projects/sales.png'
+import salesBackEnd from '../../assets/projects/sales-backend.png'
+import library from '../../assets/projects/biblioteca.png'
 
 const projects = [
     {
@@ -23,6 +26,13 @@ const projects = [
         description : 'Aplicação de cadastro de clientes e e gestão de seus serviços associados', 
         url : 'https://clients-manager.vercel.app/',
         image : dashboard
+    },
+    {
+        name: 'Relatorio de vendas',
+        tools : 'React, html2canvas, Google charts',
+        description : 'Painel com gráficos de vendas de alguns produtos, com possibilidade de exportação do relatorio em PDF', 
+        url : 'https://clients-manager.vercel.app/',
+        image : sales
     },
     {
         name: 'Delivery',
@@ -51,6 +61,20 @@ const projects = [
         description : 'Servidor responsavel por tratar do gerenciamento de pedidos e autentição', 
         url : 'https://github.com/davidgamaserrate1/api_delivery_express/tree/master',
         image : orders
+    },
+    {
+        name: 'Back-end Biblioteca',
+        tools : 'Node.js (Nest TS),TypeScript MongoDB, bcryptjs, jsonwebtoken',
+        description : 'Servidor responsavel por tratar do gerenciar livros de uma biblioteca', 
+        url : 'https://github.com/davidgamaserrate1/library_nest/tree/master',
+        image : library
+    },
+    {
+        name: 'Back-end cadastro de produtos',
+        tools : 'Node.js (Nest TS), TypeScript, Prisma, PostgreSQL bcryptjs, jsonwebtoken',
+        description : 'Servidor responsavel por tratar do cadastro de produtos', 
+        url : 'https://github.com/davidgamaserrate1/sales_dashboard/tree/master/back-end',
+        image : salesBackEnd
     },
 ]
 

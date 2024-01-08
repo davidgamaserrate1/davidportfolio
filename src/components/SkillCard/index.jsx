@@ -1,5 +1,6 @@
 import React from "react";
 import './skillCard-styles.css'
+
 export function SkillCard(props){
     return(
         <div className="skill_card">

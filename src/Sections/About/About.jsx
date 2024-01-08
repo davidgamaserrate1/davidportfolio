@@ -10,7 +10,6 @@ export function About(){
           <div className="about_name">
             <h1>David Serrate</h1>
             <h2>Full Stack Developer</h2>
-            <Divider/>
             <p className="about_apresentation">Olá, eu sou David Serrate, um Desenvolvedor a mais de 3 anos, formado em
                 engenharia de software pela Universidade
                 Federal de Mato Grosso do Sul, experiente na

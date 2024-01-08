@@ -3,6 +3,7 @@ h3{
     font-weight: 700;
     font-size: 30px;
     margin: 16px 0;
+    margin-bottom: 64px;
 }
 .skills_list{
     display: flex;
@@ -34,5 +35,5 @@ h3{
 .download_button{
     display: flex;
     align-items: center;  
-     
+    background-color: #000;
 }

@@ -5,7 +5,11 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	background-color: #000001;
 	color: #fff;
+}
+
+body{
+	background-color: #000001;
 	font-family: 'Saira', sans-serif;
+
 }

@@ -32,10 +32,11 @@ export function Header (){
                     setSkillsClicked(true)
                 }}>SKILLS</a>
                 <a className={portfolioClicked ? clickedClass : 'header_sections_item '}
+                    href='#projects'
                   onClick={()=>{
                     resetState()
                     setPortfolioClicked(true)
-                }}>PORTFOLIO</a>
+                }}>PROJETOS</a>
                 <a className={contactClicked ? clickedClass : 'header_sections_item '}
                 onClick={()=>{
                     resetState()

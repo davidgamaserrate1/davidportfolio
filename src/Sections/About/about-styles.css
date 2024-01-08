@@ -8,6 +8,7 @@ h2{
     font-size: 30px;
     text-align: left;
     color: aqua;
+    border-bottom: 1px solid #fff;
 }
 #about{
     display: flex;

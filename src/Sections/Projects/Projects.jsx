@@ -9,11 +9,7 @@ import links from '../../assets/projects/links.png'
 import orders from '../../assets/projects/orders.png'
 import ecommerce from '../../assets/projects/ecommerce.png'
 
-
-
-
 const projects = [
-
     {
         name: 'Ecommerce aparelhos eletronicos',
         tools : 'TypeScript, React, React-query, Styled-components,Reduxjs/toolkit',
@@ -72,7 +68,6 @@ export function Projects(){
                         image={project.image}
                     />
                 )}
-                 
             </div>
         </section>
     )

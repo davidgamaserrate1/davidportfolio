@@ -20,30 +20,35 @@ export function Header (){
             <div className='header_sections_title'>
                 <a className={aboutClicked ? clickedClass : 'header_sections_item '} 
                     href='#about'
-                onClick={()=>{
-                    resetState()
-                    setAboutClicked(true)
-                }}
+                    rel="noopener noreferrer" 
+                    onClick={()=>{
+                        resetState()
+                        setAboutClicked(true)
+                    }}
                 >SOBRE</a>
                 <a className={skillsClicked ? clickedClass : 'header_sections_item '}
                     href='#skills'
-                  onClick={()=>{
-                    resetState()
-                    setSkillsClicked(true)
-                }}>SKILLS</a>
+                    rel="noopener noreferrer" 
+                    onClick={()=>{
+                        resetState()
+                        setSkillsClicked(true)
+                    }}
+                >SKILLS</a>
                 <a className={portfolioClicked ? clickedClass : 'header_sections_item '}
                     href='#projects'
-                  onClick={()=>{
-                    resetState()
-                    setPortfolioClicked(true)
-                }}>PROJETOS</a>
+                    rel="noopener noreferrer" 
+                    onClick={()=>{
+                        resetState()
+                        setPortfolioClicked(true)
+                    }}
+                >PROJETOS</a>
                 <a className={contactClicked ? clickedClass : 'header_sections_item '}
                     href='#contact'
-                
-                onClick={()=>{
-                    resetState()
-                    setContactClicked(true)
-                }}
+                    rel="noopener noreferrer" 
+                    onClick={()=>{
+                        resetState()
+                        setContactClicked(true)
+                    }}
                 >CONTATO</a>
             </div>
         </header>

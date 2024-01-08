@@ -19,7 +19,7 @@ export function ProjectCard(props){
                 <div className="project_card__info_tools" >{props.tools}</div>
                 <p className="project_card__info_description" >{props.description}</p>                
                 <div className="project_card__info__link"> 
-                    <a href={props.url}  target="_blank">Detalhes</a>
+                    <a href={props.url}  target="_blank"  rel="noopener noreferrer" >Detalhes</a>
                     <span className="material-symbols-outlined arrow">arrow_forward</span>
                 </div>
             </div>

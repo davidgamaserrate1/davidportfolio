@@ -4,7 +4,7 @@ import './footer-styles.css'
 export function Footer(){
     return(
         <footer className="footer">
-            developed with ❤ por <a href="https://www.linkedin.com/in/david-gama-dev/" target="_blank"> David Serrate</a>
+            Developed with ❤ por <a href="https://www.linkedin.com/in/david-gama-dev/" target="_blank"  rel="noopener noreferrer" > David Serrate</a>
         </footer>
     )
 }

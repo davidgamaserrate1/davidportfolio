@@ -16,14 +16,14 @@ const projects = [
     {
         name: 'Ecommerce aparelhos eletronicos',
         tools : 'TypeScript, React, React-query, Styled-components,Reduxjs/toolkit',
-        description : 'A aplicação consome uma API de produtos e exibe uma lista de produtos de uma loja, permitindo a adição de produtos ao carrinho. O carrinho permite ajustar a quantidade de cada produto selecionado.', 
+        description : 'Lista de produtos de uma loja. Onde é possivel selecionar e ajustar a quantidade de cada produto selecionado.', 
         url : 'https://clients-manager.vercel.app/',
         image : ecommerce
     },
     {
         name: 'Dashboard Clientes',
         tools : 'React, Chakra UI, Node (Express), MongoDB',
-        description : 'Aplicação de cadastro de clientes e e gestão de seus serviços associados', 
+        description : 'Aplicação de cadastro de clientes e gestão de seus serviços associados', 
         url : 'https://clients-manager.vercel.app/',
         image : dashboard
     },
@@ -38,7 +38,7 @@ const projects = [
         name: 'Delivery',
         tools : 'React, Chakra UI, Node (Express), MongoDB',
         description : 'Projeto delivery, onde é possível realizar a seleção de itens do cardápio, adicionar e remover itens do carrinho, Além de realizar pedido', 
-        url : 'https://david-delivery.vercel.app/',
+        url : 'https://delivery-gilt-eta.vercel.app/',
         image : delivery
     },
     {

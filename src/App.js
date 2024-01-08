@@ -1,4 +1,5 @@
 import { About } from "./Sections/About/About";
+import { Contact } from "./Sections/Contact/Contact";
 import { Projects } from "./Sections/Projects/Projects";
 import { Skills } from "./Sections/Skills/Skills";
 import { Divider } from "./components/Divider";
@@ -13,6 +14,8 @@ export function App() {
       <Skills />
       <Divider/>
       <Projects/>
+      <Divider/>
+      <Contact/>
     </>
   );
 }

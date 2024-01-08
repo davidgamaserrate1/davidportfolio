@@ -38,6 +38,8 @@ export function Header (){
                     setPortfolioClicked(true)
                 }}>PROJETOS</a>
                 <a className={contactClicked ? clickedClass : 'header_sections_item '}
+                    href='#contact'
+                
                 onClick={()=>{
                     resetState()
                     setContactClicked(true)

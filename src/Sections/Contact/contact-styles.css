@@ -1,0 +1,24 @@
+#contact{
+    height: 50vh;
+} 
+h5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 16px 0;
+}
+ 
+.contact_social{
+    margin-top: 32px;
+}
+.contact_social__item{     
+    width: 300px;
+    display: flex;
+    justify-content: left;
+    margin: 16px auto;
+    align-items: center;
+}
+
+.contact_social__item__name{
+    margin-left: 8px;
+}

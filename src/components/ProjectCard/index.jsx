@@ -19,8 +19,8 @@ export function ProjectCard(){
                 className="project_card__image"                  
                 alt={`imagem do projeto ${props.title}`} 
                 src={props.image} 
-                width={500}
-                height={'100%'}
+                width={300}
+                height={200}
             />            
             <div className="project_card__info">
                 <div className="project_card__info_title" >{props.title}</div>

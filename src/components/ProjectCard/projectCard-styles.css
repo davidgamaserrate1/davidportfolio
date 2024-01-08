@@ -1,26 +1,28 @@
+ 
 .project_card{
     display: flex; 
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
 }
  
 .project_card__info{
     margin-left: 16px;
+    width: 300px;
+    
 }
 
 .project_card__info_title{
     font-weight: bold;
     font-size: 1.6rem;
-
 }
 
 .project_card__info_tools{
     opacity: 0.6;
 }
-
-.project_card__info_description{
-    height: 200px;
-    margin-top: 8px;
-}
-
+ 
 .project_card__info__link{
     color: #A07731;
     font-size: 1.2rem;
@@ -41,5 +43,4 @@
   
 .project_card__info__link:hover{
     cursor: pointer;
-   
 }

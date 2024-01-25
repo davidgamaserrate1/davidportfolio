@@ -1,56 +1,53 @@
 import { useState } from 'react'
 import './header-styles.css'
 
+import headerItems from '../../data/headerItems'
+import { Link } from 'react-scroll'
+import { useEffect } from 'react'
+
 export function Header (){
-    const [aboutClicked, setAboutClicked]= useState(false)
-    const [skillsClicked, setSkillsClicked]= useState(false)
-    const [portfolioClicked, setPortfolioClicked]= useState(false)
-    const [contactClicked, setContactClicked]= useState(false)
+    const [clicked, setClicked]= useState(false)
+    const [headerItemsList , setHeaderItemsList ] = useState(headerItems || {})
     
     const clickedClass = 'header_sections_item pointer'
-    const resetState = ()=>{
-        setAboutClicked(false)
-        setSkillsClicked(false)
-        setPortfolioClicked(false)
-        setContactClicked(false)
-    }
+    
+    
+    function click(id){
+        let current_list = headerItems
+        current_list.map((item)=> item.active = false)
 
+        current_list[id-1].active = true
+
+
+        setHeaderItemsList(headerItemsList)
+
+        console.log(headerItemsList)
+    }
+    
+     
+ 
     return(
         <header className='header'>
-            <div className='header_sections_title'>
-                <a className={aboutClicked ? clickedClass : 'header_sections_item '} 
-                    href='#about'
-                    rel="noopener noreferrer" 
-                    onClick={()=>{
-                        resetState()
-                        setAboutClicked(true)
-                    }}
-                >SOBRE</a>
-                <a className={skillsClicked ? clickedClass : 'header_sections_item '}
-                    href='#skills'
-                    rel="noopener noreferrer" 
-                    onClick={()=>{
-                        resetState()
-                        setSkillsClicked(true)
-                    }}
-                >SKILLS</a>
-                <a className={portfolioClicked ? clickedClass : 'header_sections_item '}
-                    href='#projects'
-                    rel="noopener noreferrer" 
-                    onClick={()=>{
-                        resetState()
-                        setPortfolioClicked(true)
-                    }}
-                >PROJETOS</a>
-                <a className={contactClicked ? clickedClass : 'header_sections_item '}
-                    href='#contact'
-                    rel="noopener noreferrer" 
-                    onClick={()=>{
-                        resetState()
-                        setContactClicked(true)
-                    }}
-                >CONTATO</a>
-            </div>
+            <ul className='header_sections_title'>
+
+                {headerItemsList.map((item) => 
+              
+                <li key={item.id} className={item.active ? 'header_sections_item pointer' : "header_sections_item"}    >
+                {console.log(item.active)}      
+                    <Link 
+                        onClick={()=>{click(item.id)}}
+                         to={item.url} 
+                        smooth={true} 
+                        offset={ item.offset }  
+                        duration={1000}
+                      
+                    >
+                    {item.label}
+                    </Link>
+                </li>
+                )}
+            </ul>
         </header>
     )
 }
+

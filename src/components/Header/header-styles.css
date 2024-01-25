@@ -18,7 +18,7 @@
     flex-wrap: wrap;
 }
 
-.pointer{
+.pointer  {
     text-decoration: overline;
     transition: ease-in 01s;
     color: aqua;
